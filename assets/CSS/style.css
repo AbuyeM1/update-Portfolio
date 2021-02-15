@@ -10,6 +10,17 @@ body {
     background-attachment: fixed;
   }
 
+  * {
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+
 #navbar {
     position: fixed;
     z-index: 99;
