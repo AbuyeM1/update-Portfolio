@@ -19,7 +19,7 @@
 
 ## Description
 
- ![altviseo](assets/CSS/image/update.portfolio.gif)
+ ![video](assets/CSS/image/update.portfolio.gif)
 
 ## Deployed Link
 
