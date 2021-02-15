@@ -52,7 +52,7 @@ body {
     font-size: 22px;
   }
 
-#navbar {
+#masthead {
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -137,9 +137,13 @@ body {
     height: 50px;
   }
 
-  ooter a {
+  footer a {
     float: right;
     color: #144de9;
+  }
+
+  footer a:hover {
+    color: #ffffff;
   }
   
   h3, h2 {
@@ -163,3 +167,51 @@ body {
     background: rgb(236, 236, 236);
     border: 1px solid rgb(14, 12, 12);
   }
+
+  .work {
+    position: relative;
+    float: left;
+    width: 274px;
+    height: 207px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #144de9;
+    border-bottom: 0;
+  }
+
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
+  .sub-container {
+    text-align: center;
+    align-content: center;
+  }
+
+  
