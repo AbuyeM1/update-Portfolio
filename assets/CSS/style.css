@@ -28,6 +28,10 @@ body {
     margin-bottom: 20px;
   }
 
+  p:last-child {
+    margin-bottom: 0;
+  }
+
 #navbar {
     position: fixed;
     z-index: 99;
