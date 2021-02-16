@@ -28,6 +28,7 @@ body {
   h3,
   p {
     margin-bottom: 20px;
+    color: rgb(238, 229, 229);
   }
   
   p:last-child {
@@ -39,7 +40,7 @@ body {
   h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #091b4d;
+    color: #909ab6;
   }
   
   h1 {
@@ -78,7 +79,7 @@ body {
     color: #fff;
     text-align: center;
     text-decoration: none;
-    background: #144de9;
+    background: #22cbe9;
   }
   
   nav {
@@ -91,7 +92,7 @@ body {
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: #999;
+    color: rgb(250, 240, 240);
     text-decoration: none;
     border-left: 1px solid #efefef;
   }
@@ -176,7 +177,7 @@ body {
     max-width: 960px;
     padding: 30px;
     margin: 0 0 40px;
-    background: rgb(236, 236, 236);
+    background: rgb(66, 62, 62);
     border: 1px solid rgb(14, 12, 12);
   }
   

@@ -4,10 +4,6 @@
  - [Description](#description)
 
  - [Deployed Link](#deployed-link)
-
- - [Installation](#installation)
-
- - [Repository](#Repository)
  
  - [CodeSnippets](#CodeSnippets)
 
