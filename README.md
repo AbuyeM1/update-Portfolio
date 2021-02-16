@@ -15,14 +15,33 @@
 
 ## Description
 
- <!-- ![video](assets/CSS/image/update.portfolio.gif) -->
+This mobil Responsive portfolio web applications design develop quality of device and window or screen size.
+
+## Walkthrough Video
+
+ ![video](assets/CSS/image/update.portfolio.gif)
 
 ## Deployed Link
-
+* [GitHub Deploy link] (https://abuyem1.github.io/update-Portfolio/)
 ## CodeSnippets
 
+     <div class="container">
+           <a href="index.html" id="logo">Abuye Mamuye</a>
+          <nav>
+             <a href="index.html">About</a>
+             <a href="portfolio.html">Portfolio</a>
+             <a href="contact.html">Contact</a>
+          </nav>
+    </div>
+
 ## Technonlogy Use
+
+* HTML
+* CSS
+* Bootstrap
 ## License
+
+![badge](https://shields.io/badge/license-MIT-green)
 
 ## Question
   
