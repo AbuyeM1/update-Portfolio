@@ -19,7 +19,7 @@ This mobil Responsive portfolio web applications design develop quality of devic
 
 ## Walkthrough Video
 
- ![video](assets/CSS/image/update.portfolio.gif)
+ ![video](assets/CSS/image/update-Portfolio.gif)
 
 ## Deployed Link
 * [GitHub Deploy link] (https://abuyem1.github.io/update-Portfolio/)
