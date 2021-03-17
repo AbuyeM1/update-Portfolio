@@ -1,0 +1,74 @@
+body {
+  background-image: url(./assets/images/background.jpeg) !important;
+}
+.container {
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: auto;
+  margin: auto;
+}
+.btn {
+  background-color: blue;
+}
+#resume-btn {
+  position: relative;
+  bottom: 20px;
+  left: 30px;
+}
+
+.fontChange {
+  font-family: "change" sans-serif;
+}
+.screenPosition {
+  margin: 10px;
+  padding: 30px;
+  border: #ff0000 solid 2px;
+}
+#roundImg {
+  border-radius: 5px;
+  border: steelblue;
+}
+.card-header {
+  background-color: #ff0000;
+  color: white;
+  text-align: center;
+}
+.Works {
+  color: #ff0000;
+}
+btn-primary {
+  border: 2px solid #ff0000;
+}
+#content {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: #66ffff;
+}
+.footer {
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 640px) {
+  h1 {
+    float: none;
+    margin: auto;
+    text-align: center;
+    border-style: none;
+  }
+
+  a {
+    top: 0px;
+    margin: auto;
+  }
+
+  nav {
+    float: none;
+    margin-right: 0px;
+  }
+}
+.textStyle {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 180%;
+}

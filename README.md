@@ -1,58 +1,72 @@
 # update-Portfolio
 
 ## Table of Contents
- - [Description](#description)
 
- - [Deployed Link](#deployed-link)
- 
- - [CodeSnippets](#CodeSnippets)
+- [Description](#description)
 
- - [License](#license)
+- [Deployed Link](#deployed-link)
 
- - [TechnonlogyUse](#Technonlogy-Use)
+- [CodeSnippets](#CodeSnippets)
 
- - [Question](#Question)
+- [License](#license)
+
+- [TechnonlogyUse](#Technonlogy-Use)
+
+- [Question](#Question)
 
 ## Description
 
 This mobil Responsive portfolio web applications design develop quality of device and window or screen size.
 
-## Walkthrough Video
+##Image
 
- ![video](assets/CSS/image/update-Portfolio.gif)
+![image](/assets/images/readme.png)
 
 ## Deployed Link
-* [GitHub Deploy link] (https://abuyem1.github.io/update-Portfolio/)
+
+- [GitHub Deploy link](https://abuyem1.github.io/update-Portfolio/)
+
 ## CodeSnippets
 
-     <div class="container">
-           <a href="index.html" id="logo">Abuye Mamuye</a>
-          <nav>
-             <a href="index.html">About</a>
-             <a href="portfolio.html">Portfolio</a>
-             <a href="contact.html">Contact</a>
-          </nav>
-    </div>
+     <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+       </div>
+     </div>
 
 ## Technonlogy Use
 
-* HTML
-* CSS
-* Bootstrap
+- HTML
+- CSS
+- Bootstrap
+
 ## License
 
 ![badge](https://shields.io/badge/license-MIT-green)
 
 ## Question
-  
- * [Email](abuye20@yahoo.com)
 
- * [LinkedIn](https://www.linkedin.com/in/abuye-mamuye-5a49921b0/)
+- [Email](abuye20@yahoo.com)
 
- * [GitHub](https://github.com/AbuyeM1)
+- [LinkedIn](https://www.linkedin.com/in/abuye-mamuye-5a49921b0/)
+
+- [GitHub](https://github.com/AbuyeM1)
 
 ## Acknowledgments
- - Jerome Chenette (Instructor)
- - Manuel Nunes (TA)
- - Mahisha Manikandan (TA)
- - UC Berkeley Coding Bootcamp
+
+- Jerome Chenette (Instructor)
+- Manuel Nunes (TA)
+- Mahisha Manikandan (TA)
+- UC Berkeley Coding Bootcamp

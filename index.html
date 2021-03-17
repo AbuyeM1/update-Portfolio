@@ -1,67 +1,125 @@
-<!doctype html>
-<html lang="en-us">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-  <title>About | Abuye Mamuye</title>
-  <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" 
+    crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab|Yellowtail' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
 </head>
-    
-    <body>
-      <header id="masthead">
-        <div class="container">
-          <a href="index.html" id="logo">Abuye Mamuye</a>
-          <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-          </nav>
-        </div>
-      </header>
-    
-      <div id="main-container" class="container">
-        <section class="main-section">
-          <h1>About Me</h1>
-    
-          <img src="assets/CSS/image/Mypic.png" class="auth-image" alt="Your Name">
-          <p> I am currently taking a coding boot camp class at UC Berkeley extension.
-            I am a fast learner, hardworking, friendly, and team-oriented person.
-          </p>
-          <p> I have excellent customer service skills. I worked as an uber driver, a shift supervisor at Safeway, and a
-            draftsman in Ethiopia.
-            My Job experiences helped me develop excellent leadership, team building, and communication skills.
-          </p>
-          <p> I enjoy nature photography and hikes. I have traveled around the bay to capture pictures.
-            I enjoy watching the sunset at the beach and watching the sunrise from the mountain top.
-            I have not watched many sunrises because I am just at the beginning of my hiking journey.
-            I hope to visit more places.
-          </p>
-          <p>I am passionate about social justice and social inequalities. I believe in having conversations and
-            lifting everyone regardless of their racial, social, economic, and sexual background.
-          </p>
-        
-          <h2><p>For more information, please check out my <a href="assets/CSS/image/AbuyeMamuyeR..pdf" style="text-decoration: none;" target="_blank">Resume!</a></p></h2>  
-        </section>
-    
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Abuye Mamuye</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>         
+        </ul>
       </div>
-    
+    </div>
+  </nav>
+
+      <div class="container screenPosition" id="content">
+          <h1 class="display">Welcome!</h1>
+          <h4 class="textStyle">My Name is Abuye Mamuye</h4>
+          <div class="margin-top:40px" class="row">
+              <div class="col-4"></div>
+              <div class="col-4">
+
+              </div>
+              <a href="./assets/images/AbuyeMamuyeR.pdf">
+                <button id="resume-btn" style="margin-top:20px" class="btn btn-primary">Resume</Button></button>
+            </a>
+          </div>
+          <div class="card">
+              <div class="card-header">
+                  <h4 class="fontChange">Skills</h4>
+              </div>
+              <div class="card-body">
+                  <ul class="textStyle">
+                      <li>
+                        HTML5
+                      </li>
+                      <li>
+                        Cascading Style Sheets (CSS)
+                      </li>
+                      <li>
+                        Bootstrap
+                      </li>
+                      <li>
+                        Javascript
+
+                      </li>
+                      <li>
+                        Web API
+                      </li>
+                      <li>
+                        jQuery
+                      </li>
+                      <li>
+                        Server Side API
+                      </li>
+                      <li>
+                        AJAX
+                      </li>
+                      <li>
+                        JSON
+                      </li>
+                      <li>
+                        Node.js
+                      </li>
+                      <li>
+                        Express.js
+                      </li>
+                      <li>
+                        Heroku
+                      </li>
+                      <li>
+                        MySQL
+                      </li>
+                      <li>
+                        Mongo DB 
+                      </li>
+                      <li>
+                        Mongoose ODM
+                      </li>
+                      <li>
+                        React
+                      </li>
+                      <li>
+                        Full Stack Development
+                      </li>    
+
+                    </ul>
+              </div>
+          </div>
+<!-- <div class="col-4"></div> -->
+      </div>
+
       <footer>
-        <div class="container">
+        <div class="footer" style="text-align: center; background-color: rgba(128, 128, 128, 0.801); margin-top: 50px;">
           Copyright &copy; 
         </div>
       </footer>
-<script>
-  $(document).ready(function(){
-    $(document).foundation();
-  });
-</script>
-    </body>
     
-    </html>
+</body>
+</html>
