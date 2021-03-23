@@ -65,6 +65,7 @@ btn-primary {
   nav {
     float: none;
     margin-right: 0px;
+    background-color: yellowgreen;
   }
 }
 .textStyle {
