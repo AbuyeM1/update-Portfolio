@@ -18,9 +18,9 @@
 
 This mobil Responsive portfolio web applications design develop quality of device and window or screen size.
 
-##Image
+##Video
 
-![image](/assets/images/readme.png)
+![video](/assets/images/video.gif)
 
 ## Deployed Link
 
