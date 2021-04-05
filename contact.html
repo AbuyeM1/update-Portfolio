@@ -1,101 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" 
-    crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab|Yellowtail' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  </head>
+  <body>
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Abuye Mamuye</a>
-      <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>         
-        </ul>
-      </div>
-    </div>
-  </nav>
-      <div class="container screenPosition" id="content" >
-          <h2 class="display">Contact Me</h2>
-          <div class="row">
-              <div class="col-6">
-                  <table class="table">
-                      <tr>
-                          <th class="fontChange">Name</th>
-                          <th class="textStyle">Abuye Mamuye</th>
-                      </tr>
-                      <tr>
-                          <th class="fontChange">Email</th>
-                          <th>
-                              <a class="Words textStyle" href="https://abuye20@yahoo.com">Abuye20@yahoo.com</a>
-                          </th>
-                      </tr>
-                      <tr>
-                        <th class="fontChange">GitHub</th>
-                          <th>
-                              <a href="https://github.com/AbuyeM1" ><img src="./assets/images/GitHub-Mark-120px-plus.png" style=" height: 75px; width: 75px;">
-                            </a>
-                          </th>
-                      </tr>
-                      <tr>
-                        <th class="fontChange">LinkedIn</th>
-                          <th>
-                           <a href="https://www.linkedin.com/in/abuye-mamuye-5a49921b0/"> <img src="./assets/images/linkedin:cons.png" style=" height: 75px; width: 75px;"></a> 
-                          </th>
-                      </tr>
-                      
-                  </table>
-              </div>
-              <div class="col-6">
-                  <h4 class="fontChange">Send Me a Message</h4>
-                  <form action="">
-                      <input placeholder="Full Name" class="form-control">
-                      <input style="margin-top:20px" placeholder="Email" class="form-control">
-                      <label style="margin-top: 20px;">Message</label>
-                      <textarea class="form-control"></textarea>
-                      <button style="margin-top: 20px;" class="btn btn-primary">Send Message</button>
-                  </form>
-              </div>
+      <nav class="navbar navbar-expand-lg rounded navbar-light bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Abuye Mamuye</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
           </div>
+        </div>
+      </nav>
+
+      <div class="container rounded" style="margin-top: 5%">
+        <div class="card">
+          <div class="card-body rounded">
+            <h2 class="display">Contact Me</h2>
+            <div class="row">
+              <div class="col-7">
+                <table class="table">
+                  <tr>
+                    <th class="fontChange">Name</th>
+                    <th class="textStyle">Abuye Mamuye</th>
+                  </tr>
+                  <tr>
+                    <th class="fontChange">Email</th>
+                    <th>
+                      <a
+                        class="Words textStyle"
+                        href="https://abuye20@yahoo.com"
+                        >Abuye20@yahoo.com</a
+                      >
+                    </th>
+                  </tr>
+                  <tr>
+                    <th class="fontChange">GitHub</th>
+                    <th>
+                      <a href="https://github.com/AbuyeM1"
+                        ><img
+                          src="./assets/images/GitHub-Mark-120px-plus.png"
+                          style="height: 75px; width: 75px"
+                        />
+                      </a>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th class="fontChange">LinkedIn</th>
+                    <th>
+                      <a
+                        href="https://www.linkedin.com/in/abuye-mamuye-5a49921b0/"
+                      >
+                        <img
+                          src="./assets/images/linkedin:cons.png"
+                          style="height: 75px; width: 75px"
+                      /></a>
+                    </th>
+                  </tr>
+                </table>
+              </div>
+              <div class="col-6">
+                <h4 class="fontChange">Send Me a Message</h4>
+                <form action="">
+                  <input placeholder="Full Name" class="form-control" />
+                  <input
+                    style="margin-top: 20px"
+                    placeholder="Email"
+                    class="form-control"
+                  />
+                  <label style="margin-top: 20px">Message</label>
+                  <textarea class="form-control"></textarea>
+                  <button style="margin-top: 20px" class="btn btn-primary">
+                    Send Message
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <footer>
-        <div class="footer" style="text-align: center; background-color: rgba(128, 128, 128, 0.801); margin-top: 50px;">
-          Copyright &copy; 
+        <div
+          class="footer rounded"
+          style="
+            text-align: center;
+            background-color: rgba(128, 77, 77, 0.801);
+            margin-top: 50px;
+          "
+        >
+          Copyright &copy;
         </div>
       </footer>
-
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

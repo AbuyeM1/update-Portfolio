@@ -1,8 +1,11 @@
 body {
   background-image: url(./assets/images/background.jpeg) !important;
 }
+.card-body {
+  background-color: rgba(30, 198, 210, 0.742);
+}
 .container {
-  background-color: white;
+  background-color: rgb(76, 133, 194);
   margin-top: 50px;
   margin-bottom: 50px;
   padding: auto;
@@ -16,15 +19,14 @@ body {
   bottom: 20px;
   left: 30px;
 }
+p {
+  color: #000000;
+}
 
 .fontChange {
   font-family: "change" sans-serif;
 }
-.screenPosition {
-  margin: 10px;
-  padding: 30px;
-  border: #ff0000 solid 2px;
-}
+
 #roundImg {
   border-radius: 5px;
   border: steelblue;
@@ -37,19 +39,11 @@ body {
 .Works {
   color: #ff0000;
 }
-btn-primary {
+.btn-primary {
   border: 2px solid #ff0000;
 }
-#content {
-  width: 800px;
-  margin: 0 auto;
-  margin-top: 40px;
-  background-color: #66ffff;
-}
-.footer {
-  margin-bottom: 0px;
-}
-@media screen and (max-width: 640px) {
+
+@media screen and (max-width: 500px) {
   h1 {
     float: none;
     margin: auto;
@@ -63,9 +57,13 @@ btn-primary {
   }
 
   nav {
-    float: none;
+    float: auto;
     margin-right: 0px;
-    background-color: yellowgreen;
+  }
+  #contact {
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #3fbaba;
   }
 }
 .textStyle {
